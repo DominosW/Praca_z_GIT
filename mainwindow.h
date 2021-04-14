@@ -18,15 +18,16 @@ public:
 private slots:
     void on_actionZakoncz_triggered();
 
-    void on_actionWyczysc_triggered();
+     void operacje();
 
     void on_pushButton_wyczysc_clicked();
 
     void on_pushButton_rowna_sie_released();
-
+    
+    void on_actionWyczysc_triggered();
+ 
     void klikniecie_cyfry();
 
-    void operacje();
 
 private:
     Ui::MainWindow *ui;
