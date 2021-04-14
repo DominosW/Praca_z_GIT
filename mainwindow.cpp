@@ -121,15 +121,16 @@ void MainWindow::on_actionZakoncz_triggered()
         QApplication::exit();
 }
 
+void MainWindow::on_pushButton_wyczysc_clicked()
+{
+    ui->label->clear();
+    ui->label->setText("0");
+}
+
 void MainWindow::on_actionWyczysc_triggered()
 {
     ui->label->clear();
     ui->label->setText("0");
 }
 
-void MainWindow::on_pushButton_wyczysc_clicked()
-{
-    ui->label->clear();
-    ui->label->setText("0");
-}
 
