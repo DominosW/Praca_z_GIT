@@ -19,14 +19,14 @@ private slots:
     void on_actionZakoncz_triggered();
 
      void operacje();
+     
+     void klikniecie_cyfry();
 
     void on_pushButton_wyczysc_clicked();
-
-    void on_pushButton_rowna_sie_released();
-    
-    void on_actionWyczysc_triggered();
  
-    void klikniecie_cyfry();
+    void on_actionWyczysc_triggered();
+    
+    void on_pushButton_rowna_sie_released();
 
 
 private:
